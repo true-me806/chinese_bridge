@@ -1,0 +1,54 @@
+			/*=====文字及其图片等设置======*/
+			a{
+				color: #0a6a91
+			}
+			img{
+				position:relative;
+				left:32%;
+				margin-left:-180px
+			}
+			p{	
+				text-indent: 32px;
+				font-size: 16px;
+				line-height: 32px
+			}
+
+			/*=====文字介绍背景=======*/
+
+			/*该部分调整为视频背景body{
+				background-image: url("photo/03.png")
+				}*/
+			blockquote{
+				display:block;
+				/*白色背景把我炫酷的背景挡住了，不要了background: #fff;*/
+				background:rgba(255,255,255,0.5);
+				padding: 15px 20px 15px 45px;
+				margin: 0 0 20px;
+				position: relative;
+
+				/*字体*/
+				font-family: Georgia,serif;
+				font-size: 16px;
+				line-height: 1.2;
+				color: #666;
+				text-align: justify;
+
+				/*边框*/
+				border-left: 15px solid #cfd913;
+				border-right: 2px solid #429296;
+
+				/*盒子阴影*/
+				-moz-box-shadow: 2px 2px 15px #ccc;
+				-webkit-box-shadow: 2px 2px 15px #ccc;
+				box-shadow: 2px 2px 15px #ccc;
+				}
+				blockquote::before {
+					font-size: 40px;
+					color: #429296;
+					content:"\201C";
+
+				/*位置*/
+				position: absolute;
+				left:10px;
+				top:5px;
+				}
